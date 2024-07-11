@@ -1,14 +1,14 @@
-type FAQBlock = {
+export type FAQBlock = {
 	question: string;
 	answer: string;
 };
 
-type FAQPanel = {
+export type FAQPanel = {
 	label: string;
 	blocks: FAQBlock[];
 };
 
-type FAQData = {
+export type FAQData = {
 	heading: string;
 	panels: FAQPanel[];
 };
